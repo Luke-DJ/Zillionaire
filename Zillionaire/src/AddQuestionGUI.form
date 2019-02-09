@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="AddQuestionGUI">
+  <grid id="27dc6" binding="addQuestionPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="1280" height="720"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <preferredSize width="1280" height="720"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="9f8ee" class="javax.swing.JLabel" binding="titleLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Berlin Sans FB Demi" size="50"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Add a question"/>
+        </properties>
+      </component>
+      <component id="f4f87" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipady="25"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <orientation value="1"/>
+        </properties>
+      </component>
+      <grid id="e907e" binding="questionAttributes1Panel" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="5b465" class="javax.swing.JLabel" binding="categoryLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Berlin Sans FB Demi" size="25"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Category"/>
+            </properties>
+          </component>
+          <component id="6ce96" class="javax.swing.JSeparator">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0" ipadx="150" ipady="2"/>
+            </constraints>
+            <properties>
+              <foreground color="-1"/>
+            </properties>
+          </component>
+          <component id="bfd4b" class="javax.swing.JLabel" binding="questionNumberLabel">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Berlin Sans FB Demi" size="25"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Question number"/>
+            </properties>
+          </component>
+          <component id="690a9" class="javax.swing.JComboBox" binding="categoryComboBox">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Berlin Sans FB Demi" size="20"/>
+              <model>
+                <item value="General Knowledge"/>
+                <item value="Sport"/>
+                <item value="Countries"/>
+              </model>
+            </properties>
+          </component>
+          <component id="80551" class="javax.swing.JSlider" binding="questionNumberSlider">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Berlin Sans FB Demi" size="15"/>
+              <majorTickSpacing value="1"/>
+              <maximum value="15"/>
+              <minimum value="1"/>
+              <paintLabels value="true"/>
+              <paintTicks value="true"/>
+              <preferredSize width="350" height="45"/>
+              <snapToTicks value="true"/>
+              <value value="1"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="87115" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipady="15"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <orientation value="1"/>
+        </properties>
+      </component>
+      <grid id="e9fbf" binding="questionAttributes2Panel" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="fa4f4" class="javax.swing.JLabel" binding="questionLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Berlin Sans FB Demi" size="25"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Question"/>
+            </properties>
+          </component>
+          <component id="60aa0" class="javax.swing.JSeparator">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0" ipadx="150" ipady="2"/>
+            </constraints>
+            <properties>
+              <foreground color="-1"/>
+            </properties>
+          </component>
+          <component id="99bad" class="javax.swing.JLabel" binding="correctAnswerLabel">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Berlin Sans FB Demi" size="25"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Correct answer"/>
+            </properties>
+          </component>
+          <scrollpane id="2438f" binding="questionScrollPane">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <preferredSize width="350" height="75"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="c5d26" class="javax.swing.JTextArea" binding="questionTextArea">
+                <constraints/>
+                <properties>
+                  <disabledTextColor color="-16777216"/>
+                  <dragEnabled value="true"/>
+                  <font name="Berlin Sans FB Demi" size="15"/>
+                  <lineWrap value="true"/>
+                  <wrapStyleWord value="true"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <scrollpane id="748e2" binding="correctAnswerScrollPane">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <preferredSize width="350" height="75"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="66f0" class="javax.swing.JTextArea" binding="correctAnswerTextArea">
+                <constraints/>
+                <properties>
+                  <disabledTextColor color="-16777216"/>
+                  <dragEnabled value="true"/>
+                  <font name="Berlin Sans FB Demi" size="15"/>
+                  <lineWrap value="true"/>
+                  <wrapStyleWord value="true"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <component id="b71cf" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipady="15"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <orientation value="1"/>
+        </properties>
+      </component>
+      <grid id="314bc" binding="questionAttributes3Panel" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f710" class="javax.swing.JLabel" binding="incorrectAnswer1Label">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Berlin Sans FB Demi" size="25"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Incorrect answer 1"/>
+            </properties>
+          </component>
+          <component id="1cbb5" class="javax.swing.JSeparator">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0" ipadx="75" ipady="2"/>
+            </constraints>
+            <properties>
+              <foreground color="-1"/>
+              <orientation value="0"/>
+            </properties>
+          </component>
+          <component id="92e1b" class="javax.swing.JLabel" binding="incorrectAnswer2Label">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Berlin Sans FB Demi" size="25"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Incorrect answer 2"/>
+            </properties>
+          </component>
+          <component id="72fa3" class="javax.swing.JSeparator">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0" ipadx="75" ipady="2"/>
+            </constraints>
+            <properties>
+              <foreground color="-1"/>
+              <orientation value="0"/>
+            </properties>
+          </component>
+          <component id="41996" class="javax.swing.JLabel" binding="incorrectAnswer3Label">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Berlin Sans FB Demi" size="25"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Incorrect answer 3"/>
+            </properties>
+          </component>
+          <scrollpane id="879fc" binding="incorrectAnswer1ScrollPane">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <preferredSize width="350" height="75"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="aae8" class="javax.swing.JTextArea" binding="incorrectAnswer1TextArea">
+                <constraints/>
+                <properties>
+                  <disabledTextColor color="-16777216"/>
+                  <dragEnabled value="true"/>
+                  <font name="Berlin Sans FB Demi" size="15"/>
+                  <lineWrap value="true"/>
+                  <wrapStyleWord value="true"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <scrollpane id="7788c" binding="incorrectAnswer2ScrollPane">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <preferredSize width="350" height="75"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="f8c8e" class="javax.swing.JTextArea" binding="incorrectAnswer2TextArea">
+                <constraints/>
+                <properties>
+                  <disabledTextColor color="-16777216"/>
+                  <dragEnabled value="true"/>
+                  <font name="Berlin Sans FB Demi" size="15"/>
+                  <lineWrap value="true"/>
+                  <wrapStyleWord value="true"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <scrollpane id="49115" binding="incorrectAnswer3ScrollPane">
+            <constraints>
+              <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <preferredSize width="350" height="75"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="67bf4" class="javax.swing.JTextArea" binding="incorrectAnswer3TextArea">
+                <constraints/>
+                <properties>
+                  <disabledTextColor color="-16777216"/>
+                  <dragEnabled value="true"/>
+                  <font name="Berlin Sans FB Demi" size="15"/>
+                  <lineWrap value="true"/>
+                  <wrapStyleWord value="true"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <component id="12fd3" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <orientation value="1"/>
+        </properties>
+      </component>
+      <component id="46e45" class="javax.swing.JButton" binding="addButton">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB Demi" size="35"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Add"/>
+          <toolTipText value="Add a question using the information entered above"/>
+        </properties>
+      </component>
+      <component id="1e600" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipady="15"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <orientation value="1"/>
+        </properties>
+      </component>
+      <grid id="535e6" binding="questionAttributes4Panel" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="c8eec" class="javax.swing.JLabel" binding="hintLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Berlin Sans FB Demi" size="25"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Hint"/>
+            </properties>
+          </component>
+          <scrollpane id="ccfca" binding="hintScrollPane">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <preferredSize width="350" height="75"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="cf42f" class="javax.swing.JTextArea" binding="hintTextArea">
+                <constraints/>
+                <properties>
+                  <disabledTextColor color="-16777216"/>
+                  <dragEnabled value="true"/>
+                  <font name="Berlin Sans FB Demi" size="15"/>
+                  <lineWrap value="true"/>
+                  <wrapStyleWord value="true"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <component id="ee2d3" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipady="25"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <foreground color="-1"/>
+          <orientation value="1"/>
+        </properties>
+      </component>
+      <component id="bd49e" class="javax.swing.JButton" binding="returnToSettingsButton" default-binding="true">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB Demi" size="25"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Return to Settings"/>
+          <toolTipText value="Return to the settings screen"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

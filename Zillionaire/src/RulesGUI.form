@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="RulesGUI">
+  <grid id="27dc6" binding="rulesPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="1280" height="720"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <maximumSize width="1280" height="720"/>
+      <minimumSize width="1280" height="720"/>
+      <preferredSize width="1280" height="720"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="a0144" class="javax.swing.JLabel" binding="titleLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="images/rules.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="aacdd" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipady="25"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+        </properties>
+      </component>
+      <component id="f175c" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipady="25"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+        </properties>
+      </component>
+      <component id="2778e" class="javax.swing.JButton" binding="startButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB Demi" size="30"/>
+          <horizontalTextPosition value="0"/>
+          <maximumSize width="1280" height="50"/>
+          <minimumSize width="1280" height="50"/>
+          <opaque value="true"/>
+          <preferredSize width="1280" height="50"/>
+          <text value="Start"/>
+          <toolTipText value="Start the game"/>
+        </properties>
+      </component>
+      <component id="fd672" class="javax.swing.JTextArea" binding="rulesTextArea">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <disabledTextColor color="-16777216"/>
+          <editable value="false"/>
+          <font name="Berlin Sans FB Demi" size="22"/>
+          <lineWrap value="true"/>
+          <preferredSize width="1280" height="315"/>
+          <text value="This game is a cross between 'Who Wants to be a Millionaire' and 'Mastermind'&#10;For each question, you must choose a category (general knowledge, sport, countries).&#10;You must choose 1 of the 4 possible answers given.&#10;If you answer the question correctly, you will be rewarded with an amount of 'money' based on the difficulty of the question.&#10;The questions get harder as the game progresses.&#10;You have access to 3 types of help facility:&#10;Ask the Public - Displays a rating for each possible answer according to the likelihood that it is the correct answer.&#10;Half-and-half - Two of the possible answers are removed leaving only the correct answer and one incorrect answer.&#10;Give us a Clue - Displays a hint as to which answer is correct.&#10;You may only use each help facility once.&#10;If you choose an incorrect answer, you are out of the game.&#10;The winner is the player with the most money at the end of the game."/>
+          <wrapStyleWord value="true"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

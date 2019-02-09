@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="AskPublicGUI">
+  <grid id="27dc6" binding="askPublicPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="12" y="16" width="758" height="406"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <preferredSize width="640" height="360"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="ca9a" class="javax.swing.JLabel" binding="titleLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Berlin Sans FB Demi" size="35"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Ask the Public"/>
+        </properties>
+      </component>
+      <component id="fc91b" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipady="25"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <orientation value="1"/>
+        </properties>
+      </component>
+      <grid id="8a0c0" binding="barsPanel" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="7b276" class="javax.swing.JProgressBar" binding="bar1">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <borderPainted value="true"/>
+              <doubleBuffered value="false"/>
+              <foreground color="-65536"/>
+              <opaque value="false"/>
+              <orientation value="1"/>
+              <preferredSize width="75" height="150"/>
+              <string value=""/>
+              <stringPainted value="true"/>
+              <value value="25"/>
+            </properties>
+          </component>
+          <component id="c1b85" class="javax.swing.JSeparator">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0" ipadx="10" ipady="10"/>
+            </constraints>
+            <properties>
+              <foreground color="-1"/>
+            </properties>
+          </component>
+          <component id="d793c" class="javax.swing.JProgressBar" binding="bar2">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <foreground color="-16776961"/>
+              <orientation value="1"/>
+              <preferredSize width="75" height="150"/>
+              <string value=""/>
+              <stringPainted value="true"/>
+              <value value="25"/>
+            </properties>
+          </component>
+          <component id="f7eaa" class="javax.swing.JSeparator">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0" ipadx="10" ipady="10"/>
+            </constraints>
+            <properties>
+              <foreground color="-1"/>
+            </properties>
+          </component>
+          <component id="3c306" class="javax.swing.JProgressBar" binding="bar3">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <foreground color="-256"/>
+              <orientation value="1"/>
+              <preferredSize width="75" height="150"/>
+              <string value=""/>
+              <stringPainted value="true"/>
+              <value value="25"/>
+            </properties>
+          </component>
+          <component id="2ae82" class="javax.swing.JSeparator">
+            <constraints>
+              <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0" ipadx="10" ipady="10"/>
+            </constraints>
+            <properties>
+              <foreground color="-1"/>
+            </properties>
+          </component>
+          <component id="5aaa" class="javax.swing.JProgressBar" binding="bar4">
+            <constraints>
+              <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <foreground color="-16711936"/>
+              <orientation value="1"/>
+              <preferredSize width="75" height="150"/>
+              <string value=""/>
+              <stringPainted value="true"/>
+              <value value="25"/>
+            </properties>
+          </component>
+          <component id="a18cb" class="javax.swing.JTextArea" binding="potentialAnswerTextArea1">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <disabledTextColor color="-16777216"/>
+              <editable value="false"/>
+              <font name="Berlin Sans FB Demi" size="25"/>
+              <lineWrap value="true"/>
+              <preferredSize width="150" height="60"/>
+              <text value="Answer 1"/>
+              <wrapStyleWord value="true"/>
+            </properties>
+          </component>
+          <component id="fc320" class="javax.swing.JTextArea" binding="potentialAnswerTextArea2">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <disabledTextColor color="-16777216"/>
+              <editable value="false"/>
+              <font name="Berlin Sans FB Demi" size="25"/>
+              <lineWrap value="true"/>
+              <preferredSize width="150" height="60"/>
+              <text value="Answer 2"/>
+              <wrapStyleWord value="true"/>
+            </properties>
+          </component>
+          <component id="b156a" class="javax.swing.JTextArea" binding="potentialAnswerTextArea3">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <disabledTextColor color="-16777216"/>
+              <editable value="false"/>
+              <font name="Berlin Sans FB Demi" size="25"/>
+              <lineWrap value="true"/>
+              <preferredSize width="150" height="60"/>
+              <text value="Answer 3"/>
+              <wrapStyleWord value="true"/>
+            </properties>
+          </component>
+          <component id="9635" class="javax.swing.JTextArea" binding="potentialAnswerTextArea4">
+            <constraints>
+              <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <disabledTextColor color="-16777216"/>
+              <editable value="false"/>
+              <font name="Berlin Sans FB Demi" size="25"/>
+              <lineWrap value="true"/>
+              <preferredSize width="150" height="60"/>
+              <text value="Answer 4"/>
+              <wrapStyleWord value="true"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

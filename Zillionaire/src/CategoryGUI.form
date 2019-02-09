@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="CategoryGUI">
+  <grid id="27dc6" binding="categoryPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="1280" height="720"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <preferredSize width="1280" height="720"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="24432" class="javax.swing.JLabel" binding="titleLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Berlin Sans FB Demi" size="50"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Please select a category for Q"/>
+        </properties>
+      </component>
+      <component id="9102a" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipady="50"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <orientation value="1"/>
+        </properties>
+      </component>
+      <component id="679d3" class="javax.swing.JButton" binding="generalKnowledgeButton">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB Demi" size="30"/>
+          <horizontalTextPosition value="0"/>
+          <text value="General Knowledge"/>
+          <toolTipText value="Covers a broad range of facts about various subjects"/>
+        </properties>
+      </component>
+      <component id="995a" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipady="25"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <orientation value="1"/>
+        </properties>
+      </component>
+      <component id="634ee" class="javax.swing.JButton" binding="sportButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB Demi" size="30"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Sport"/>
+          <toolTipText value="Covers facts about a broad range of sports"/>
+        </properties>
+      </component>
+      <component id="61407" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipady="25"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <orientation value="1"/>
+        </properties>
+      </component>
+      <component id="de283" class="javax.swing.JButton" binding="countriesButton">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB Demi" size="30"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Countries"/>
+          <toolTipText value="Covers facts about cities, countries, continents, and more"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
