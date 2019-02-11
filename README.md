@@ -1,3 +1,3 @@
 # Zillionaire
 
-<img src="gif.gif" alt="gif">
+<img src="https://i.imgur.com/AZR9z80.png" alt="image">
